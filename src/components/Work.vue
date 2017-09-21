@@ -3,7 +3,8 @@
 	<div style="margin-top:3%">
 		<div class="container-fluid">
 			<div class="row">
-				<span class="title">{{title}}</span>
+				<span class="title">{{title}}     |</span>
+				<a href="https://github.com/iishyfishyy"><i class="fa fa-github-alt" style="margin-left:1%;" aria-hidden="true"><span class="iconfont">github</span></i></a>
 			</div>
 			<hr/>
 			<div class="row">
@@ -155,11 +156,11 @@
 <script>
 
   export default {
-    name: 'about',
+    name: 'work',
     props: {
       msg: {
         type: String,
-        default: 'About'
+        default: 'Work'
       }
     },
     data(){
@@ -189,13 +190,18 @@
 
 
 .title{
-font-size: 29.5px;
+font-size: 2em;
 font-family: 'Source Code Pro', monospace;
+}
+
+.iconfont{
+font-family: 'Source Code Pro', monospace;
+font-size: 0.5em;
 }
 
 a {
 color:#000000;
-font-size: 35px;
+font-size: 2em;
 font-family: 'Source Code Pro', monospace;
 }
 
@@ -210,4 +216,5 @@ color:#000000;
 img {
 width: 60%;
 }
+
 </style>

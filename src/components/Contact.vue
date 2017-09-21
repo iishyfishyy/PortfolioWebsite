@@ -6,8 +6,19 @@
 				<span class="title">{{title}}</span>
 			</div>
 			<hr/>
-			
-			
+			<div class="row">
+				<p>
+					I appreciate your time, you can reach me at: 
+				</p>
+			</div>
+			<div class="row">
+				<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+				<span class="text"><a v-bind:href="'mailto:'+email">{{email}}</a></span>
+			</div>
+			<div class="row">
+				<i class="fa fa-mobile fa-4x" aria-hidden="true"></i>
+				<span class="text">&nbsp;{{phone}}</span>
+			</div>
 		</div>
 	</div>
  </div>
@@ -28,6 +39,8 @@
     data(){
       return {
 		title:"contact me",
+		phone:"226 260 2296",
+		email:"mishrai@uwindsor.ca",
       }
     },
 	components: {
@@ -47,25 +60,28 @@
 
 
 .title{
-font-size: 29.5px;
+font-size: 2em;
 font-family: 'Source Code Pro', monospace;
 }
+
 
 a {
 color:#000000;
-font-size: 35px;
-font-family: 'Source Code Pro', monospace;
-}
-
-p {
-font-family: 'Source Code Pro', monospace;
 }
 
 a span {
 color:#000000;
 }
 
-img {
+p {
+font-size: 2em;
+font-family: 'Source Code Pro', monospace;
+}
+
+.text {
+margin-left: 5%;
+font-size: 2em;
+font-family: 'Source Code Pro', monospace;
 width: 60%;
 }
 </style>

@@ -4,8 +4,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import Home from './components/Home'
-import About from './components/About'
+import Work from './components/Work'
 //import Shots from './components/Shots'
+import Blog from './components/Blog'
 import Contact from './components/Contact'
 import Carousel3d from 'vue-carousel-3d'
 import quickMenu from 'vue-quick-menu'
@@ -21,7 +22,8 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     { path: '/', component: Home },
-    { path: '/projects', component: About },
+    { path: '/projects', component: Work },
+    { path: '/blog', component: Blog },
     { path: '/contact', component: Contact },
   ]
 });
@@ -35,8 +37,8 @@ new Vue({
   router,
   data: {
     count:4,
-    icons:["fa fa-home","fa fa-question-circle","fa fa-weixin"],
-    list:["/","/projects","/contact"],
+    icons:["fa fa-home","fa fa-code", "fa fa-pencil-square-o", "fa fa-weixin"],
+    list:["/","/projects","/blog", "/contact"],
     backgroundColor:'#ffffff',
     color:'#000000',
     position:'top-right',
@@ -48,7 +50,7 @@ new Vue({
   template: `
     <div id="app">
 
-    <quick-menu :menu-count=3 :icon-class=icons :menu-url-list=list :backgroundColor=backgroundColor :position=position class="menuelement"></quick-menu>
+    <quick-menu :menu-count=count :icon-class=icons :menu-url-list=list :backgroundColor=backgroundColor :position=position class="menuelement"></quick-menu>
 
       <router-view></router-view>
 

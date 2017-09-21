@@ -1,5 +1,5 @@
 <template>
-	<div style="margin-top:3%">
+	<div>
 		<div class="container-fluid">
 		<div class="row">
 			<span class="name">{{nametext}}</span>
@@ -21,7 +21,7 @@
 		so I like to dream big.</p>
 			<p class="about">
 			<b>When I'm not in front of a monitor</b>, you can find me out exploring my passion for photography and filming. In addition to developing software,
-			I enjoy capturing the natural beauty of Earth with a lens. Photography and film portfolio coming soon.
+			I enjoy capturing the natural beauty of Earth with a lens. <b>Photography and film portfolio coming soon.</b>
 			</p>
 		</div>
 	</div>
@@ -46,7 +46,7 @@
     data(){
       return {
 		nametext: "ISHAN MISHRA",
-		undernametext: "software engineer & web developer",
+		undernametext: "software engineer \\ web developer \\ photographer \\ thinker",
       }
     },
     methods: {
@@ -63,17 +63,17 @@
 
 .name{
 font-family: 'Libre Barcode 128 Text', cursive;
-font-size: 150px;
+font-size: 10em;
 }
 
 .undername{
-font-size: 29.5px;
+font-size: 2em;
 font-family: 'Source Code Pro', monospace;
 }
 
 .about{
-width: 65%;
+width: 100%;
 font-family: 'Source Code Pro', monospace;
-font-size: 20px;
+font-size: 1em;
 }
 </style>
