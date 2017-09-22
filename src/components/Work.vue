@@ -205,9 +205,10 @@ font-size: 2em;
 font-family: 'Source Code Pro', monospace;
 }
 
-p {
+p, dt {
 font-family: 'Source Code Pro', monospace;
 }
+
 
 a span {
 color:#000000;
