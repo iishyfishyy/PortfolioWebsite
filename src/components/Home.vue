@@ -2,10 +2,11 @@
 	<div>
 		<div class="container-fluid">
 		<div class="row">
-			<span class="name">{{nametext}}</span>
+			<span class="name">{{nametext}} |</span>
 		</div>
 		<div class="row">
-			<span class="undername">{{undernametext}}</span>
+			<span class="undername">{{undernametext}}</span> <br/>
+			<a href="../../static/resume.pdf"><span class="iconfont">my resume</span></a>
 		</div>
 		<hr/>
 		<div class="row">
@@ -60,6 +61,21 @@
 </script>
 
 <style scoped>
+
+.iconfont{
+font-family: 'Source Code Pro', monospace;
+font-size: 1m;
+}
+
+a {
+color:#000000;
+font-size: 2em;
+font-family: 'Source Code Pro', monospace;
+}
+
+a{
+color:#000000;
+}
 
 .name{
 font-family: 'Libre Barcode 128 Text', cursive;
