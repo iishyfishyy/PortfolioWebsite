@@ -18,7 +18,7 @@
 		will fulfill our societies' ever evolving needs. <b>Alfred North Whitehead once said, "civilization advances by extending the number of 
 		operations we can perform without thinking about them."</b> Our world is headed towards that reality and I want to be a part of the community
 		that achieves that goal. I plan on achieving this through my deep desire for life-time learning because that is the best way to maximise
-		my potential and my ability to create extraordinary value. It takes teh same effort to have a small dream as it does to have a big dream,
+		my potential and my ability to create extraordinary value. It takes the same effort to have a small dream as it does to have a big dream,
 		so I like to dream big.</p>
 			<p class="about">
 			<b>When I'm not in front of a monitor</b>, you can find me out exploring my passion for photography and filming. In addition to developing software,
