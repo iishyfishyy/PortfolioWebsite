@@ -43,6 +43,10 @@
 								<dt>SocketIO</dt>
 							</dl>
 							</div>
+							<div class="row">
+							<a href="https://gist.github.com/iishyfishyy/0afc0192c0e2d850f6b84b39f334cd2e"><i class="fa fa-github-alt" style="margin-left:1%;" aria-hidden="true"><span class="iconfont">github</span></i></a>
+							<span class="bwith"> <-  key pieces of code</span>
+							</div>
 						  </div>
 						</modal>
 					</div>
@@ -111,7 +115,7 @@
 							</div>
 							<div class="row">
 							<h4>built with</h4>
-							This program was built with Java SWING and AWT components.
+							<span class="bwith">This program was built with Java SWING and AWT components.</span>
 							</div>
 						  </div>
 						</modal>
@@ -119,31 +123,38 @@
 				</div>
 				<div class="one-half column">
 					<div class="row">
-						<a href="#">more to be added soon</a>
+						<a v-on:click="show('texteditor')" href="#">Python Text Editor</a>
 					</div>
-					<!-- <div class="row"> -->
-						<!-- <img src="../../static/images/paint.jpg"> -->
-						<!-- <modal name="paint" :adaptive="true" :resizable="true" :scrollable="true" height="500px" style="margin-bottom: 10%;"> -->
-						  <!-- <div class="container-fluid"> -->
-							<!-- <h4>inspiration</h4> -->
-							<!-- <div class="row"> -->
-							<!-- <p>This program was made for my Software Development class to demonstrate knowledge of Java SWING components. This was -->
-							<!-- great practice to learning how to develop GUI applications before moving on to Qt Application Framework with Python or C++. -->
-							<!-- </p> -->
-							<!-- </div> -->
-							<!-- <div class="row"> -->
-							<!-- <h4>what it does</h4> -->
-							<!-- <p>Paint in Java lets you draw squares, ovals, and lines on the canvas, in thirteen  -->
-							<!-- different available colors. It also includes an undo button and a clear button. -->
-							<!-- </p> -->
-							<!-- </div> -->
-							<!-- <div class="row"> -->
-							<!-- <h4>built with</h4> -->
-							<!-- This program was built with Java SWING and AWT components. -->
-							<!-- </div> -->
-						  <!-- </div> -->
-						<!-- </modal> -->
-					<!-- </div> -->
+					 <div class="row"> 
+						 <img src="" alt="Adding screenshot soon" class="bwith"> 
+						 <modal name="texteditor" :adaptive="true" :resizable="true" :scrollable="true" height="700px" style="margin-bottom: 10%;"> 
+						   <div class="container-fluid"> 
+							 <h4>inspiration</h4> 
+							 <div class="row"> 
+							 <p>I was inspired to learn GUI programming after doing considerable amounts of Java GUI development using built-in packages.
+								I was primarily set on building GUI programs using C++ for performance benefits but realised I would have to learn the Qt cross-platform
+								application framework to get started on that. To learn the basics of this framework, I took it upon myself to use Python to learn the build process
+								Qt uses. This project helped me improve my Python skills as well as get familiar with using Qt for GUI development. Next steps are to move on to C++.
+							 </p> 
+							 </div> 
+							 <div class="row"> 
+							 <h4>what it does</h4> 
+							 <p>The editor contains all of the basic functions of a text editor including the changing of font colors, background colors, bolding, italicizing, underlining,
+							 striking out text, superscripting and subscripting, aligning text, etc. You can also save the file and reopen later. All editing options are neatly aligned
+							 on the top bar and scrolldown menus are used where necessary.
+							 </p> 
+							 </div> 
+							 <div class="row"> 
+							 <h4>built with</h4> 
+							 <span class="bwith">This application was built in Python with the PyQt framework v4.</span>
+							 </div> 
+							 <div class="row">
+								<a href="https://gist.github.com/iishyfishyy/a8b358ab4d5cf12cb19e0dee66ec4a9b"><i class="fa fa-github-alt" style="margin-left:1%;" aria-hidden="true"><span class="iconfont">github</span></i></a>
+								<span class="bwith"> <-  key pieces of code</span>
+							 </div>
+						   </div> 
+						 </modal> 
+					 </div> 
 				</div>
 			</div>
 		</div>
@@ -209,6 +220,9 @@ p, dt {
 font-family: 'Source Code Pro', monospace;
 }
 
+.bwith {
+font-family: 'Source Code Pro', monospace;
+}
 
 a span {
 color:#000000;
