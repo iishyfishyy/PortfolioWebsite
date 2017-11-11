@@ -8,6 +8,11 @@
 			</div>
 			<hr/>
 			<div class="row">
+				<div class="twelve column">
+					<span class="bwith">* more recent work available on github link above *</span>
+				</div>
+			</div>
+			<div class="row">
 				<div class="one-half column">
 					<div class="row">
 						<a v-on:click="show('webgl')" href="#">WebGL Oscilloscope</a>

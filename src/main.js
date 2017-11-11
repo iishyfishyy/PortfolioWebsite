@@ -6,7 +6,6 @@ import App from './App'
 import Home from './components/Home'
 import Work from './components/Work'
 //import Shots from './components/Shots'
-import Blog from './components/Blog'
 import Contact from './components/Contact'
 import Carousel3d from 'vue-carousel-3d'
 import quickMenu from 'vue-quick-menu'
@@ -23,7 +22,6 @@ const router = new VueRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/projects', component: Work },
-    { path: '/blog', component: Blog },
     { path: '/contact', component: Contact },
   ]
 });
@@ -36,9 +34,9 @@ Vue.config.productionTip = false
 new Vue({
   router,
   data: {
-    count:4,
-    icons:["fa fa-home","fa fa-code", "fa fa-pencil-square-o", "fa fa-weixin"],
-    list:["/","/projects","/blog", "/contact"],
+    count:3,
+    icons:["fa fa-home","fa fa-code", "fa fa-weixin"],
+    list:["/","/projects","/contact"],
     backgroundColor:'#ffffff',
     color:'#000000',
     position:'top-right',

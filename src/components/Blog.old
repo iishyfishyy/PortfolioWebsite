@@ -1,0 +1,63 @@
+<template>
+ 
+</template>
+
+
+
+<script>
+
+  export default {
+    name: 'blog',
+    props: {
+      msg: {
+        type: String,
+        default: 'blog'
+      }
+    },
+    data(){
+      return {
+		
+		
+
+      }
+    },
+	components: {
+	
+	},
+    methods: {
+
+    },
+    computed: {
+
+    }
+  }
+
+</script>
+
+<style scoped>
+
+
+.title{
+font-size: 2em;
+font-family: 'Source Code Pro', monospace;
+}
+
+.blogtitle{
+font-size: 1.5em;
+font-family: 'Source Code Pro', monospace;
+}
+
+a {
+color:#000000;
+}
+
+a span {
+color:#000000;
+}
+
+p, dt {
+font-size: 1em;
+font-family: 'Source Code Pro', monospace;
+}
+
+</style>

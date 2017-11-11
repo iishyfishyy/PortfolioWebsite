@@ -1,12 +1,38 @@
 <template>
-
-  <div class="home">
-      <div class="shadow">
-        <router-link to="/about"><img class="showlogo" src="../../static/images/atlastrails.gif"/></router-link>
-      </div>
-  </div>
+	<div>
+		<div class="container-fluid">
+		<div class="row">
+			<span class="name">{{nametext}} |</span>
+		</div>
+		<div class="row">
+			<span class="undername">{{undernametext}}</span> <br/>
+			<a href="../../static/resume.pdf"><span class="iconfont">my resume</span></a>
+		</div>
+		<hr/>
+		<div class="row">
+			<p class="about"><b>I'm a fourth year student at University of Windsor studying Computer Science with Software Engineering.</b>
+		I have experience designing software for desktop and mobile, as well as web development for back and front end. Over
+		the short term, <b>I plan to get an internship over the summer</b> to gain experience relevant to my field, work on the many ideas
+		I have, continue learning about the various technologies out there, and self-improve by reading and learning by reading good books.
+		Over the long term, my passion lies in making software, mobile & web applications, and turning my business ideas into creations that
+		will fulfill our societies' ever evolving needs. <b>Alfred North Whitehead once said, "civilization advances by extending the number of 
+		operations we can perform without thinking about them."</b> Our world is headed towards that reality and I want to be a part of the community
+		that achieves that goal. I plan on achieving this through my deep desire for life-time learning because that is the best way to maximise
+		my potential and my ability to create extraordinary value. It takes the same effort to have a small dream as it does to have a big dream,
+		so I like to dream big.</p>
+			<p class="about">
+			<b>When I'm not in front of a monitor</b>, you can find me out exploring my passion for photography and filming. In addition to developing software,
+			I enjoy capturing the natural beauty of Earth with a lens. <b>Photography and film portfolio coming soon.</b>
+			</p>
+		</div>
+	</div>
+	</div>
+</div>
+		
 
 </template>
+
+
 
 <script>
 
@@ -15,12 +41,13 @@
     props: {
       msg: {
         type: String,
-        default: 'Welcome'
+        default: 'Home'
       }
     },
     data(){
       return {
-
+		nametext: "ISHAN MISHRA",
+		undernametext: "software engineer \\ web developer \\ photographer \\ thinker",
       }
     },
     methods: {
@@ -35,25 +62,34 @@
 
 <style scoped>
 
-div.shadow {
-  position:absolute;
-  max-width:45%;
-  max-height:45%;
-  top:65%;
-  left:40%;
-  overflow:visible;
+.iconfont{
+font-family: 'Source Code Pro', monospace;
+font-size: 1m;
 }
 
-.showlogo {
-  transform: scale(0.45, 0.45);
-  -ms-transform: scale(0.45, 0.45);
-  -webkit-transform: scale(0.45, 0.45);
-  position:relative;
-  max-width:100%;
-  max-height:100%;
-  margin-top:-25%;
-  margin-left:-50%;
+a {
+color:#000000;
+font-size: 2em;
+font-family: 'Source Code Pro', monospace;
 }
 
+a{
+color:#000000;
+}
 
+.name{
+font-family: 'Libre Barcode 128 Text', cursive;
+font-size: 10em;
+}
+
+.undername{
+font-size: 2em;
+font-family: 'Source Code Pro', monospace;
+}
+
+.about{
+width: 100%;
+font-family: 'Source Code Pro', monospace;
+font-size: 1em;
+}
 </style>
