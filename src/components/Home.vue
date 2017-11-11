@@ -103,8 +103,8 @@
 		<div class="row">
 			<p class="about"><b>I'm a fourth year student at University of Windsor studying Computer Science with Software Engineering.</b>
 		I have experience designing software for desktop and mobile, as well as web development for back and front end. Over
-		the short term, <b>I plan to get an internship over the summer</b> to gain experience relevant to my field, work on the many ideas
 		I have, continue learning about the various technologies out there, and self-improve by reading and learning by reading good books.
+		the short term, <b>I plan to get an internship over the summer</b> to gain experience relevant to my field, work on the many ideas
 		Over the long term, my passion lies in making software, mobile & web applications, and turning my business ideas into creations that
 		will fulfill our societies' ever evolving needs. <b>Alfred North Whitehead once said, "civilization advances by extending the number of 
 		operations we can perform without thinking about them."</b> Our world is headed towards that reality and I want to be a part of the community
@@ -118,13 +118,26 @@
 		</div>
 		
 		-->
+		
 	</div>
+	
 	</div>
 		
 
 </template>
 
-
+<script type="text/javascript">
+	var sc_project=10787208; 
+	var sc_invisible=1; 
+	var sc_security="a8e8b37b"; 
+	var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+	document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+"statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript><div class="statcounter"><a title="Web Analytics"
+	href="http://statcounter.com/" target="_blank"><img
+	class="statcounter"
+	src="//c.statcounter.com/10787208/0/a8e8b37b/1/" alt="Web
+	Analytics"></a></div></noscript>
 
 <script>
 
